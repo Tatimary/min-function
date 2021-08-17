@@ -1,0 +1,19 @@
+<script>
+
+//run on dev tools in browser.
+
+
+function min(a = 0, b = 2){
+  if(a > b)
+  console.log("b is smaller because it is equal to " + b + " and a is equal to " + a);
+  if (b > a)
+  console.log("a is smaller because a is equal to " + a + " and b is equal to " + b);
+  else(
+    console.log ("both numbers are equal")
+  );
+
+}
+
+min();
+
+</script>
